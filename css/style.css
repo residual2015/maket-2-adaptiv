@@ -1,0 +1,679 @@
+*{
+    box-sizing: border-box;  
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+   background:url(../image/header_bg.jpg) no-repeat center;
+    margin: 0;
+    padding: 0;
+    height: 894px;
+}
+.header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 24px;
+}
+.logo{
+    background: url(../image/header_logo.png) no-repeat center;
+    width: 49px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 780px;
+    height: 18px;
+}
+.menu li{
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0.45px;
+}
+.header_content{
+    background: url(../image/header_ifone.png) no-repeat right;
+    height: 591px;
+    position: relative;
+    top: 126px; 
+}
+.batton{
+    width: 248px;
+    height: 68px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    position: relative;
+    top: 180px;
+}
+.batton a{
+    width: 248px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_content h1{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.38px;
+    position: relative;
+    top: 119px;
+}
+.header_content p{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    position: relative;
+    top: 119px;
+}
+
+/*------------------------------*/
+.wraper{
+    margin: 0;
+    padding: 0;
+    height: 933px;
+}
+.content{
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+.content_top p{
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 700;
+    /line-height: 68px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    text-align: center;
+}
+.content_top h1{
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 36px;
+    font-weight: 700;
+    /line-height: 68px;
+    letter-spacing: 0.36px;
+    text-align: center;
+}
+.content_text{
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+}
+.content_text2{
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 154px;
+}
+.content_block{
+    width: 324px;
+    height: 230px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.text{
+    position: relative;
+    top: 40px;
+}
+.content_block1{
+    background: url(../image/content_logo1.png) no-repeat top center;
+}
+.content_block2{
+    background: url(../image/content_logo2.png) no-repeat top center;
+}
+.content_block3{
+    background: url(../image/content_logo3.png) no-repeat top center;
+}
+.content_block4{
+    background: url(../image/content_logo4.png) no-repeat top center;
+}
+.content_block5{
+    background: url(../image/content_logo5.png) no-repeat top center;
+}
+.content_block6{
+    background: url(../image/content_logo6.png) no-repeat top center;
+}
+.content_block h1{
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 501;
+    letter-spacing: 0.18px;
+    text-align: center;
+}
+.content_block p{
+    color: #5c5c5c;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.wraper2{
+    max-width: 1920px;
+    background-color: #f1f1f1;
+    height: 933px;
+    margin: 0 auto;
+}
+.content2{
+    background: url(../image/content_mobile.png) no-repeat left;
+    max-width: 1170px;
+    height: 760px;
+    margin: 0 auto;
+    position: relative;
+    top: 111px;
+    left:-120px;
+}
+article{
+    font-family: "Arimo";
+    text-align: left;
+    position: relative;
+    top: 155px;
+    left:620px;
+}
+article h1{
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.9px;
+}
+article p{
+    color: #5b5b5b;
+    font-family: "Arimo";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+.batton2{
+    width: 573px;
+    height:78px;
+     display: flex;
+     justify-content: space-between;
+    position: relative;
+    top: 215px;
+    left:620px;
+
+}
+.app p{
+    width: 116px;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    position: relative;
+    left:107px;
+    top:10px;
+
+}
+.app h1{
+    width: 116px;
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1.15px;
+    position: relative;
+    left:107px;
+    top:-20px;
+
+}
+.google p{
+    width: 116px;
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    position: relative;
+    left:107px;
+    top:10px;
+
+}
+.google h1{
+    width: 133px;
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.57px;
+    position: relative;
+    left:107px;
+    top:-20px;
+
+}
+.google{
+    background: url(../image/google.jpg) no-repeat center;
+    width: 273px;
+    height: 78px;
+}
+.app{
+    background: url(../image/ic-apple.jpg) no-repeat center;
+    width: 273px;
+    height: 78px;
+    border-radius: 5px;
+}
+.wraper3{
+    max-width: 1920px;
+    height: 688px;
+    background-color: #f8f9f9;
+    margin:0 auto;
+}
+.wraper3_1{
+    max-width: 1170px;
+    height: 688px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content4{
+    width:1229px;
+    height: 688px;
+    background: url(../image/ifone-2.png) no-repeat center;
+    margin-right: -200px;
+}
+.content3{
+    width: 1170px;
+    height:688px;
+    margin: 0 auto;
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.3px;
+    padding-top: 90px;
+}
+.content3 h1{
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0.3px;
+    margin-top: 65px;
+}
+.content3 p{
+    color: #5c5c5c;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.18px;
+    margin-top: -25px;
+}
+ul{
+    width: 462px;
+    height: 36px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+    margin-top: -3px;
+
+}
+.content3 a{
+    height: 36px;
+    color: #343434;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.18px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #f8f9f9 ;
+}
+.content3 a:hover{
+    color: #ff8400;
+    border-bottom: 3px solid #ff8400;
+}
+.wraper4{
+    background: url(../image/wp-bg4.jpg) no-repeat center;
+    max-width: 1920px;
+    height: 567px;
+    margin:0 auto;
+}
+.content5{
+    max-width: 1170px;
+    height: 567px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content5 h1{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 68px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    position: relative;
+    top:130px;
+}
+.content5 p{
+    color: #ffffff;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.18px;
+    position: relative;
+    top:110px;
+}
+.in-email{
+    width: 605px;
+    height: 68px;
+    padding-left: 33px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    color: #fffefe;
+    font-family: "Arimo";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    background-color: transparent;
+    position: relative;
+    top:180px;
+}
+.in-email:focus{
+    outline: none;
+
+}
+.in-email::-webkit-input-placeholder {color:#fffefe;}
+.in-email::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+.in-email:-moz-placeholder           {color:#fffefe;}/* Firefox 18- */
+.in-email:-ms-input-placeholder      {color:#fffefe;}
+
+.in-submit{
+    width: 204px;
+    height: 68px;
+    box-shadow: 0 0 25px rgba(255, 132, 0, 0.65);
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #ff8400;
+    font-family: "Arimo";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    border: 0 none transparent;
+    margin-left: 25px;
+    position: relative;
+    top:180px;
+}
+.wraper5{
+	max-width: 1920px;
+	height: 751px;
+	margin:0 auto;
+}
+.content6{
+	max-width: 1170px;
+	height: 751px;
+	margin:0 auto;
+}
+.content6 h1{
+	color: #343434;
+	font-family: "Arimo";
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 68px;
+	letter-spacing: 0.36px;
+	text-align: center;
+	position: relative;
+	top:50px;
+}
+.wraper6{
+	max-width: 1920px;
+	height: 108px;
+	background-color: #f1f1f1;
+	margin:0 auto;
+}
+.content7{
+	max-width: 1170px;
+	height: 108px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content7 p{
+	color: #5c5c5c;
+	font-family: "Arimo";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+}
+.phone{
+	width: 295px;
+	height:40px;
+	background: url("../image/ic-phone.png") no-repeat left;
+	padding-left: 68px;
+}
+.email-adres{
+	width: 317px;
+	height:40px;
+	background: url("../image/ic-mail.png") no-repeat left;
+	padding-left: 68px;
+}
+.location{
+	width: 383px;
+	height:40px;
+	background: url("../image/ic-location.png") no-repeat left;
+	padding-left: 68px;
+}
+footer{
+	max-width: 1920px;
+	margin:0 auto;
+}
+footer form{
+	max-width: 1170px;
+	height: 545px;
+	margin:0 auto;
+	padding-top: 77px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.name{
+	width: 474px;
+	height: 68px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #c0c0c0;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+.name:focus{
+    outline: none;
+}
+.email{
+	width: 474px;
+	height: 68px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #bfbfbf;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+.email:focus{
+    outline: none;
+}
+.subject{
+	width: 474px;
+	height: 68px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #bfbfbf;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+.subject:focus {
+    outline: none;
+}
+textarea{
+	width: 673px;
+	height: 258px;
+	border-radius: 5px;
+	border: 2px solid #ececec;
+	color: #bfbfbf;
+	font-family: "Arimo";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 1.2px;
+	padding-left: 28px;
+}
+textarea:focus {
+    outline: none;
+}
+.name::-webkit-input-placeholder ,.email::-webkit-input-placeholder,.subject::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#c0c0c0;}
+
+.name::-moz-placeholder,.email::-moz-placeholder,.subject::-moz-placeholder,textarea::-moz-placeholder          {color:#fffefe;}/* Firefox 19+ */
+
+.name:-moz-placeholder,.email:-moz-placeholder,.subject:-moz-placeholder,textarea:-moz-placeholder
+{color:#fffefe;}/* Firefox 18- */
+
+.name:-ms-input-placeholder,.email:-ms-input-placeholder,.subject:-ms-input-placeholder,textarea:-ms-input-placeholder      {color:#fffefe;}
+
+.submit{
+	width: 241px;
+	height: 68px;
+	border-radius: 5px;
+	background-color: #ff8400;
+	border: 0 none transparent;
+	color: #ffffff;
+	font-family: "Arimo";
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 36px;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	text-align: center;
+}
+.left-block{
+	height: 258px;
+	width: 474px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.right-block{
+	height:368px;
+	width: 673px;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.hr{
+    width: 1920px;
+    height: 6px;
+    background-color: #d8d8d8;
+    color: #d8d8d8;
+
+}
+.copyright{
+    max-width: 1170px;
+    height: 107px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    display: flex;
+    align-items: center;
+    color: #5c5c5c;
+    font-family: "Arimo";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.icon{
+   width: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-feecbook{
+    width: 19px;
+    height: 35px;
+    background: url("../image/icon-feecbook.png") no-repeat center;
+}
+.icon-google{
+    width: 43px;
+    height: 33px;
+    background: url("../image/icon-google.png") no-repeat center;
+}
+.icon-instagram{
+    width: 34px;
+    height: 34px;
+    background: url("../image/icon-instagram.png") no-repeat center;
+}
