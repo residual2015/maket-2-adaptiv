@@ -106,8 +106,7 @@ a{
     padding: 0;
     height: 933px;
 }
-.content{
-    margin: 0 auto;
+.content_top{
     position: relative;
     top: 100px;
 }
@@ -132,7 +131,7 @@ a{
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 60px;
+    top: 160px;
 }
 .content_block{
     width: 324px;
